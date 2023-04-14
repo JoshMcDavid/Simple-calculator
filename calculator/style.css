@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.container{
+    max-width: 600px;
+    margin: 20vh auto 0 auto;
+    background-color: rgb(7, 2, 76);
+}
+.page{
+    margin: 50px 50px;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    margin-left: 12rem;
+}
+.header h3{
+    text-align: center;
+    color: red;
+}
+
+.header img{
+    cursor: pointer;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    box-shadow: 0px 0px 100px 10px rgba(153, 153, 153, 1);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons div {
+    margin-bottom: 10px
+}
+ .btn{
+    border: 0.5px solid #999;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    margin-inline: 5px;
+    cursor: pointer;
+ }
+
+ #reset{
+    background-color: red;
+    border: none;
+ }
+
+ #equals{
+    background-color: green;
+    border: none;
+ }
+
+ .btn:hover{
+    background-color: rgb(102, 102, 237);
+    transition: 0.5s ease-in-out;
+ }
+
+ #reset:hover{
+   background-color: rgb(240, 86, 86);
+    transition: 0.5s ease-in-out;
+ }
+ #equals:hover{
+   background-color: rgb(85, 231, 85);
+    transition: 0.5s ease-in-out;
+ }
